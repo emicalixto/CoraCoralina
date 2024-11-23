@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+/* Cabeçalho */
+
+.Container {
+    list-style-type: none;
+    padding: 2;
+    display: flex;
+    align-items: center;
+    background-color: #156A76;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  .logo {
+  flex: 1; 
+  margin-right: auto;
+
+  }
+
+
+  .search-container {
+    flex: 1;
+    padding: 20px;
+  
+    }
+    
+    .menu {
+    flex: 3; 
+    text-align: center;
+    color: white;
+    font-weight: bold; 
+    font:  normal normal bold 24px/42px Poppins;
+        
+    }
+
+
+  .search-box {
+    border: 2px solid #fff;
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 8px 40px; /* EspaÃ§o interno */
+    padding-left: 10px; /* Ajusta apenas o padding da esquerda para aproximar o texto */
+    width: 250px; /* Largura do campo de busca */
+    outline: none; /* Remove o contorno padrÃ£o */
+    background-color: #156A76; /* Cor interna do campo de pesquisa */
+    color: white; /* Cor do texto */
+  }
+  
+  .search-box::placeholder {
+    color: #CCCCCC;; /* Cor desejada para o texto do placeholder */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .search-icon {
+    position: absolute;
+    margin-left: -35px; /* Ajusta a posiÃ§Ã£o do Ã­cone */
+    margin-top: 4px; /* Ajusta a posiÃ§Ã£o do Ã­cone verticalmente */
+    color: #fff; /* Cor do Ã­cone */
+    width:30px;
+    height: 30px;
+    
+  }
+
+  .titulo { 
+    margin-top: 40px; /* Ajuste o valor conforme necessÃ¡rio */
+    text-align: center;      /* Alinha o texto Ã  esquerda */
+    color: #808080;   
+    font-size: 30px;     
+    font-family: 'Poppins', sans-serif;  /* Define a fonte Poppins (ou qualquer outra, caso desejado) */
+    font-weight: bold; 
+  }
+
+  p {
+    margin-right: 10%; 
+    margin-top: 20px;
+    margin-left: 10%;
+    font-size: 16px; /* Tamanho da fonte */
+    line-height: 1.5; /* Altura da linha */
+    text-align: center; /* Alinhamento do texto */
+    margin-top: 20px;
+  }
+
+
+
+  .grid {
+    justify-content: space-between;
+    display: flex; /* Usa flexbox para organizar os cards */
+    margin-top: 40px;
+    margin-right: 5%; 
+    margin-left: 5%;
+}
+
+.card {
+    text-align: center; /* Centraliza o texto em cada card */
+    margin: 0 10px; /* Espaçamento lateral entre os cards */
+    width: 300px; /* Largura fixa dos cards */
+    height:450px;
+    background-color: #fff;
+    border-radius: 10%; 
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
+    
+
+}
+
+.card img {
+    width: 300px; /* Largura da imagem */
+    height: 308px; /* Altura da imagem */
+    object-fit: cover; /* Cobre o espaço mantendo a proporção */
+    border-radius: 10%; 
+}
+
+.legend-texto {
+  font-size: 14px;
+   text-align: left;
+    margin-top: 10px; /* Espaço entre a imagem e o texto */
+    color: #333333;
+}
+
+
+
+.legenda {
+
+  background-color: #ffffff; /* Mesma cor de fundo do grid */
+  color: #333333;
+  padding: 10px; /* Distância das bordas do grid */
+  width: 100%;
+  box-sizing: border-box; /* Inclui o padding no cálculo da largura total */
+  text-align: left; /* Alinha o texto à esquerda */
+}
+
+footer {
+  background-color: #156A76;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 50px;       
+
+ }
+
+footer a {
+  color: white;
+}         
+        

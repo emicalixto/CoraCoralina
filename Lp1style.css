@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+ /* Cabeçalho */
+
+  .Container {
+    list-style-type: none;
+    padding: 2;
+    display: flex;
+    align-items: center;
+    background-color: #156A76;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  .logo {
+  flex: 1; 
+  margin-right: auto;
+
+  }
+
+
+  .search-container {
+    flex: 1;
+    padding: 20px;
+  
+    }
+    
+    .menu {
+    flex: 3; 
+    text-align: center;
+    color: white;
+    font-weight: bold; 
+    font:  normal normal bold 24px/42px Poppins;
+        
+    }
+
+
+  .search-box {
+    border: 2px solid #fff;
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 8px 40px; /* EspaÃ§o interno */
+    padding-left: 10px; /* Ajusta apenas o padding da esquerda para aproximar o texto */
+    width: 250px; /* Largura do campo de busca */
+    outline: none; /* Remove o contorno padrÃ£o */
+    background-color: #156A76; /* Cor interna do campo de pesquisa */
+    color: white; /* Cor do texto */
+  }
+  
+  .search-box::placeholder {
+    color: #CCCCCC;; /* Cor desejada para o texto do placeholder */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .search-icon {
+    position: absolute;
+    margin-left: -35px; /* Ajusta a posiÃ§Ã£o do Ã­cone */
+    margin-top: 4px; /* Ajusta a posiÃ§Ã£o do Ã­cone verticalmente */
+    color: #fff; /* Cor do Ã­cone */
+    width:30px;
+    height: 30px;
+    
+  }
+
+  /* Corpo da página */
+
+
+ .Conteudo{
+   display: flex;
+   flex-direction: column;
+
+ }
+
+  .titulo { 
+    margin-top: 40px; /* Ajuste o valor conforme necessÃ¡rio */
+    text-align: center;      /* Alinha o texto Ã  esquerda */
+    margin-left: 30px;     /* Afasta o tÃ­tulo da borda esquerda */
+    color: #000000;        /* Define a cor cinza (#808080 Ã© o cinza padrÃ£o) */
+    font-size: 40px;       /* Tamanho da fonte (ajuste conforme necessÃ¡rio) */
+    font-family: 'Poppins', sans-serif;  /* Define a fonte Poppins (ou qualquer outra, caso desejado) */
+    font-weight: bold; 
+  }
+
+.imagem {
+    display: flex; /* Usando Flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: auto; 
+    max-width: 100%;
+}
+
+.Noticia01 {
+    height: auto; 
+    max-width: 100%;
+    width: 75%;
+    border-radius: 20px;/* Ajuste o raio da borda conforme necessário */
+    margin-top: 40px;
+  }
+
+  .credito {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+
+  }
+
+  .Texto {
+    margin-left: 20%; /* Margem esquerda de 10% */
+    margin-right: 20%; 
+    margin-top: 30px;
+  }
+
+  p {
+    font-size: 16px; /* Tamanho da fonte */
+    line-height: 1.5; /* Altura da linha */
+    text-align: left; /* Justifica o texto */
+    margin: 1px 1px; 
+    margin-top: 20px;
+    margin-left: 10%; /* Margem esquerda de 10% */
+    margin-right: 10%;
+  }
+
+  h3 {
+    font-size: 20px;
+    margin-left: 10%; /* Margem esquerda de 10% */
+    margin-right: 10%;
+    margin-top: 20px;
+  }
+
+
+  footer {
+    background-color: #156A76;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 30px;
+    
+  }
+  
+  footer a {
+  color: white;
+  }

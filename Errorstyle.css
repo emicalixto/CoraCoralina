@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+}
+
+.error-code {
+    font-size: 100px;
+    color: #156A76;
+    margin: 0;
+}
+
+.error-message {
+    font-size: 24px;
+    color: #333;
+}
+
+.error-description {
+    font-size: 18px;
+    color: #666;
+    margin: 20px 0;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #156A76;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    
+}
+
+.back-button:hover {
+    background-color: #0E4D52;   
+}

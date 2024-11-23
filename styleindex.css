@@ -1,0 +1,142 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+  
+  .bannerhome {
+    width:100%;
+    height: 212px;
+    display: block;
+ 
+  }
+   
+  .menu {
+    list-style-type: none;
+    padding: 2;
+    display: flex;
+    align-items: center;
+    background-color: #156A76;
+    justify-content: space-between;
+    
+  }
+  .menu li {
+    display: inline;
+    padding: 2px 30px;
+    margin: 0 10px; 
+
+  }
+
+  .menu li a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+
+  
+} 
+
+.search-container {
+  padding: 20px;
+
+  }
+  
+.search-box {
+  border: 2px solid #fff;
+  border-radius: 10px; /* Bordas arredondadas */
+  padding: 8px 40px; /* EspaÃ§o interno */
+  padding-left: 10px; /* Ajusta apenas o padding da esquerda para aproximar o texto */
+  width: 250px; /* Largura do campo de busca */
+  outline: none; /* Remove o contorno padrÃ£o */
+  background-color: #156A76; /* Cor interna do campo de pesquisa */
+  color: white; /* Cor do texto */
+}
+
+.search-box::placeholder {
+  color: #CCCCCC;; /* Cor desejada para o texto do placeholder */
+  margin: 0;
+  padding: 0;
+}
+
+.search-icon {
+  position: absolute;
+  margin-left: -35px; /* Ajusta a posiÃ§Ã£o do Ã­cone */
+  margin-top: 4px; /* Ajusta a posiÃ§Ã£o do Ã­cone verticalmente */
+  color: #fff; /* Cor do Ã­cone */
+  width:30px;
+  height: 30px;
+  
+}
+
+.titulo {
+  margin-top: 40px; /* Ajuste o valor conforme necessÃ¡rio */
+  text-align: center;      /* Alinha o texto Ã  esquerda */
+  margin-left: 30px;     /* Afasta o tÃ­tulo da borda esquerda */
+  color: #808080;        /* Define a cor cinza (#808080 Ã© o cinza padrÃ£o) */
+  font-size: 32px;       /* Tamanho da fonte (ajuste conforme necessÃ¡rio) */
+  font-family: 'Poppins', sans-serif;  /* Define a fonte Poppins (ou qualquer outra, caso desejado) */
+}
+
+
+.imagens {
+  display: flex; /* Usado para alinhar as imagens lado a lado */
+  justify-content: center; /* Centraliza horizontalmente as imagens */
+  margin-top: 40px;
+  
+}
+
+.Noticia01 {
+  width: 633px;
+  height: 696px;
+  border-radius: 20px;/* Ajuste o raio da borda conforme necessário */
+  margin-right: 45px; /* Espaço entre a imagem maior e as menores */
+}
+
+.imagens2 {
+  display: flex;
+  flex-direction: column; /* Alinha as imagens menores em coluna */
+  align-items: center; /* Centraliza as imagens menores */
+  margin-bottom: 20px; /* Espaçamento entre as imagens menores */
+  border: 40px; /* Ajuste a cor e espessura da borda conforme necessário */
+}
+
+.Noticia02 {
+  width: 584px;
+  height: 324px;
+  border-radius: 20px;/* Ajuste o raio da borda conforme necessário */
+  margin-bottom: 50px; /* Espaçamento entre as imagens menores */
+  top: 513px;
+  left: 765px;
+
+}
+.Noticia03 {
+    width: 584px;
+    height: 324px;
+    border-radius: 20px;/* Ajuste o raio da borda conforme necessário */
+    top: 885px;
+    left: 765px;
+    margin-top: -2px;
+}
+
+footer {
+  background-color: #156A76;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 30px;
+  
+}
+
+footer a {
+color: white;
+}
